@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="petshop.css">
+    <title> petshop</title>
+</head>
+
+
+<body>
+    <div class="text" style="text-align:center" >
+        <h1>Traga, seu animal!</h1>  
+      </div>
+      
+
+    <div style="text-align: left; background-color: rgb(240, 192, 60);">
+    
+        <div style="text-align:end; width:1400px;">
+            <a href="#cap1" class="petshop">
+                Agendar consulta
+            </a>
+            <a href="#cap2" class="petshop">
+                Nossos produtos
+            </a>
+            <a href="#cap3" class="petshop">
+                Servicos
+            </a>
+            <a href="#cap4" class="petshop">
+                Contate-nos
+            </a>
+        </div>
+
+        <div class="capitulo1">
+            <h1 id="cap1 "> </h1>
+            
+        <div id="pai" >
+            <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 40px; padding-left: 50px;  border-radius: 100px">Só as cachorra</h1>
+        </div>
+        <hr>
+
+        <div>            
+            <img class="banner" src="https://s2.glbimg.com/slaVZgTF5Nz8RWqGrHRJf0H1PMQ=/0x0:800x450/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/U/e/NTegqdSe6SoBAoQDjKZA/cachorro.jpg"></a>
+        </div>
+
+<hr>
+      
+
+      <table width=1470 height=400 border="3">
+        <tr>
+        <td class="imagem1"> </td>
+        <td class="imagem2"> </td>
+        <td class="imagem3"> </td>
+        <td class="imagem4"> </td>
+        </tr>
+        </table>  
+    
+        <div id="app">
+            
+            <button class="botao"style="margin-left: 120px">Adicionar</button>
+            <button class="botao2"style="margin-left: 270px">Adicionar</button>
+            <button class="botao3"style="margin-left: 320px">Adicionar</button>
+            <button class="botao4"style="margin-left: 320px">Adicionar</button>
+        </div>
+            
+        
+        <script>
+            var cont = 10;
+            var cont2 = 1;
+        
+            var botao = document.querySelector('button.botao');
+            botao.onmouseover = function(){
+            alert('voce adicionou '+ cont2 + ' itens no seu carrinho, valor de ' + cont + ' reais');
+                cont2++;
+                cont= cont+10;
+            }
+
+
+            var botao2 = document.querySelector('button.botao2');
+            botao2.onmouseover = function(){
+            alert('voce adicionou '+ cont2 + ' itens no seu carrinho, valor de ' + cont + ' reais');
+                cont2++;
+                cont= cont+10;
+            }
+
+            var botao3 = document.querySelector('button.botao3');
+            botao3.onmouseover = function(){
+            alert('voce adicionou '+ cont2 + ' itens no seu carrinho, valor de ' + cont + ' reais');
+                cont2++;
+                cont= cont+10;
+            }
+
+            var botao4 = document.querySelector('button.botao4');
+            botao4.onmouseover = function(){
+            alert('voce adicionou '+ cont2 + ' itens no seu carrinho, valor de ' + cont + ' reais');
+                cont2++;
+                cont= cont+10;
+            }            
+            </script>        
+
+        </body>
+        
+        </html>
+
+        
